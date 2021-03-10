@@ -6,15 +6,14 @@
 % turns pair programming each other
 
 
-% calculating mean age
+% Calculating mean age
 % % T1 = T(:, 6);
 % % age = rmmissing(T1);%REMOVES NAN
 % % age_matrix = table2array(age)
 % % mean(age_matrix);
 
-% this was originally made a while ago when we were all figuring out how to
-% extracting variables
-% this was done on Laurel's screen while Michelle and Sarah both watched
+% This was originally made a while ago when we were all figuring out how to
+% Extracting variables to use in analysis:
 date = T(:, 3);
 armed = T(:, 5);
 age = T(:, 6);
@@ -29,3 +28,6 @@ body_cam = T(:, 14);
 longitude = T(:, 15);
 latitude = T(:, 16);
 
+% Writing the code: Laurel, 2 hours
+% Debugging the code: Michelle, Sarah, 1 hour
+% Collaborated with Pair Programming
